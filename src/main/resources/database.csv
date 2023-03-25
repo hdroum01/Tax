@@ -1,0 +1,6 @@
+﻿Name,Quantity,Price,Category,Import,Tax
+The Great Gatsby,4,12.49,Books,false,0
+Taylor Swift Red Album,20,14.99,CDs,false,0
+Dark Chocolate,2,0.85,Food,false,0
+Milk Chocolate,6,10,Food,true,0
+YSl Eau de parfum,1,47.5,Perfume,true,0

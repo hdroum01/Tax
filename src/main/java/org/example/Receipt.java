@@ -14,7 +14,7 @@ public class Receipt {
 
     public void addItem(Product product) {
         double taxValue = product.price.taxTotal(product.imported, product.productCategory);
-        soldItems.put(product.name.name, taxValue + product.price.value);
+        soldItems.put((product.imported ? "Imported " : "") + product.name.name, taxValue + product.price.value);
         taxTotal += taxValue;
         receiptTotal += taxValue + product.price.value;
     }

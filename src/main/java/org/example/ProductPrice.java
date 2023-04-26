@@ -1,9 +1,9 @@
 package org.example;
 
-public class Price {
+public class ProductPrice {
     public final double value;
 
-    Price(double value){
+    ProductPrice(double value){
         String valueString = Double.toString(value);
         if(valueString.indexOf(".") < valueString.length() - 3) {
             throw new IllegalArgumentException("Too many decimal places");
